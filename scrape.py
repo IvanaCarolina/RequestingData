@@ -15,4 +15,4 @@ def create_custem_hn(links, votes):
         href = links[inx].get('href', None)
         hn.append({'title':title, 'links':href})
     return hn
-print(create_custem_hn(links, votes))
+pprint.pprint(create_custem_hn(links, votes))
